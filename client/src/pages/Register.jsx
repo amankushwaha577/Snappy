@@ -47,7 +47,7 @@ export default function Register() {
         toastOptions
       );
       return false;
-    } else if (password.length < 8) {
+    } else if (password.length < 5) {
       toast.error(
         "Password should be equal or greater than 8 characters.",
         toastOptions
